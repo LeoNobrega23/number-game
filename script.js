@@ -25,6 +25,7 @@ function conferirPalpite() {
      configFimDeJogo()
     } else if (contagemPalpite === 10) {
     ultimoResultado.textContent = `Fim de jogo! O número correto era ${numAleatorio}`
+    ultimoResultado.style.backgroundColor = 'rgb(161, 28, 5)'
     baixoOuAlto.textContent = " "
     configFimDeJogo()
     } else {
